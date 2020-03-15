@@ -4,3 +4,4 @@
   - Practice with Angular and Angular packages
   
 Was originally hosted using AWS, pricing became too expensive :(
+Rebuilding for Azure, no real plans.

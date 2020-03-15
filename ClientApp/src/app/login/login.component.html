@@ -1,0 +1,52 @@
+<form [formGroup]="uploadForm" (ngSubmit)="onSubmit()">
+  <table>
+    <tbody>
+      <tr class="table-row">
+        <td>
+          <span>Username: </span>
+        </td>
+        <td>
+          <input 
+            formControlName="userName"
+            class="form-control" 
+            type="text" 
+            placeholder="Username.."
+          >
+        </td>
+      </tr>
+      <tr class="table-row">
+        <td>
+          <span>Password: </span>
+        </td>
+        <td>
+          <input 
+            class="form-control" 
+            formControlName="password"
+            type="password" 
+            placeholder="Password..." 
+          />
+        </td>
+      </tr>
+      <tr class="table-row">
+        <td>
+          <span>Confirm Password: </span>
+        </td>
+        <td>
+          <input 
+            class="form-control" 
+            formControlName="cPassword"
+            type="password" 
+            placeholder="Confirm Password..." 
+          />
+        </td>
+      </tr>
+      <tr class="table-row">
+        <button  class="btn btn-primary">Login</button>
+      </tr>
+    </tbody>
+  </table>
+
+  <p class="greyed-out">this will be notes for loging in</p>
+  <p class="greyed-out">Going to skip registration page, if a login attempt is valid, create the user</p>
+  <p class="greyed-out">the way this table is layed out is pretty cool ngl</p>
+</form>
